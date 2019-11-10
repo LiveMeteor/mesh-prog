@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "amd",
+    "allowJs": true, 
+    "sourceMap": true,
+    "removeComments": true,
+    "outFile": "./dist/js/mesh.all.js",
+    "outDir": "./dist/js",
+    "strict": false,
+    "baseUrl": "src/",
+    "noImplicitAny": true,
+    "strictNullChecks": false,
+    "esModuleInterop": true,
+    "typeRoots" : ["./typings", "node_modules/@types"]
+  },
+  "typeRoots": [
+    "./typings",
+    "node_modules/@types"
+  ],
+  "include": [
+    "src/**/*"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Launch Chrome",
+            "type": "chrome",
+            "request": "launch",
+            "file": "${workspaceFolder}/dist/index.html",
+            "sourceMaps": true,
+            "webRoot": "${workspaceFolder}",
+            "port": 5433,
+            "preLaunchTask": "build",
+            "runtimeArgs": [
+                "--disable-features=AutoplayIgnoreWebAudio",
+                "--args",
+                "--no-cached-data",
+                "-allow-file-access-from-files",
+                "-incognito",
+            ]
+        },
+        {
+            "type": "chrome",
+            "request": "attach",
+            "name": "Attach to Chrome",
+            "port": 5433,
+            "webRoot": "${workspaceRoot}"
+        },
+        {
+            "type": "firefox",
+            "request": "launch",
+            "name": "Launch Firefox against localhost",
+            "file": "${workspaceRoot}/index.html",
+            "reAttach": true,
+            // "pathMappings": [{
+            //     "path": "${workspaceFolder}"
+            // }],
+            // "port":5433,
+            // "preLaunchTask": "build", 
+        }
+    ]
+}

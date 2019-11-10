@@ -1,0 +1,5 @@
+{
+    "git.ignoreLimitWarning": true,
+    "vscode.tsc.compiler.alertTSConfigChanges": "never",
+    "vscode.tsc.compiler.alertOnError": "never"
+}

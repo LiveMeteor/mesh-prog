@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+#game_container {
+    width: auto;
+    height: auto;
+}

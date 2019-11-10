@@ -1,0 +1,16 @@
+{
+  "name": "mesh-prog",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "typescript": "^3.5.2"
+  },
+  "dependencies": {
+    "@types/three": "^0.103.2",
+    "three": "^0.110.0"
+  },
+  "scripts": {
+    "version": "tsc --version",
+    "tsc": "tsc -p ./tsconfig.json"
+  }
+}
