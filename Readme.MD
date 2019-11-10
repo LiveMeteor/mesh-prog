@@ -9,4 +9,4 @@
 
 
 工程核心代码在 `src/app/`
-输出的图片在 `要浏览的页面在 dist/index.html`
+要浏览的页面在 `dist/index.html`
